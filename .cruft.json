@@ -1,0 +1,31 @@
+{
+    "template": "https://github.com/scverse/cookiecutter-scverse",
+    "commit": "cd3e0bed897b54505eef7a1b2d5cd2c3543f5833",
+    "checkout": null,
+    "context": {
+        "cookiecutter": {
+            "project_name": "insight",
+            "package_name": "insight",
+            "project_description": "Interpretable Neural Single-cell Inference using Genomic Hierarchical Techniques",
+            "author_full_name": "David Martin-Pestana",
+            "author_email": "dmape@birc.au.dk",
+            "github_user": "David-M-P",
+            "github_repo": "insight",
+            "license": "MIT License",
+            "ide_integration": true,
+            "_copy_without_render": [
+                ".github/workflows/build.yaml",
+                ".github/workflows/test.yaml",
+                "docs/_templates/autosummary/**.rst"
+            ],
+            "_render_devdocs": false,
+            "_jinja2_env_vars": {
+                "lstrip_blocks": true,
+                "trim_blocks": true
+            },
+            "_template": "https://github.com/scverse/cookiecutter-scverse",
+            "_commit": "cd3e0bed897b54505eef7a1b2d5cd2c3543f5833"
+        }
+    },
+    "directory": null
+}
